@@ -27,7 +27,7 @@ public class BuyService {
 	
 	
 	
-	private static BuyService instance = null;
+	public static BuyService instance = null;
 	private BuyService () {}
 	public static BuyService getInstance() {
 		if(instance==null) instance = new BuyService();
